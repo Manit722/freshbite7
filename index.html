@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshBite Café | Lucknow</title>
+  <meta name="description" content="FreshBite Café, Lucknow — fresh coffee, baked treats, breakfast, and a cozy modern café experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">F</span>
+        <span>FreshBite Café</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#specials">Specials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content animate-up">
+          <span class="badge">Freshly brewed in Lucknow</span>
+          <h1>Crafted coffee, warm bites, and cozy moments.</h1>
+          <p>
+            Welcome to FreshBite Café — a modern café experience with freshly brewed coffee,
+            delicious snacks, and a relaxing space made for every mood.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">Explore Menu</a>
+            <a href="#contact" class="btn btn-outline">Reserve a Table</a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>50+</strong>
+              <span>Menu items</span>
+            </div>
+            <div>
+              <strong>4.8★</strong>
+              <span>Guest rating</span>
+            </div>
+            <div>
+              <strong>Open Daily</strong>
+              <span>8 AM - 11 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card animate-float">
+          <div class="coffee-cup">
+            <div class="steam steam-1"></div>
+            <div class="steam steam-2"></div>
+            <div class="steam steam-3"></div>
+            <div class="cup-body">
+              <div class="cup-lid"></div>
+              <div class="cup-circle"></div>
+              <div class="cup-handle"></div>
+            </div>
+          </div>
+          <h3>FreshBite Signature</h3>
+          <p>Try our caramel cappuccino with a warm croissant.</p>
+          <a href="#specials" class="mini-link">Today's specials →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span>About Us</span>
+          <h2>Modern café vibes with a homely touch.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass">
+            <h3>Our Story</h3>
+            <p>
+              FreshBite Café was created to bring people together over great coffee,
+              fresh food, and a peaceful atmosphere. Whether you are working, chatting,
+              or relaxing, we have a place for you.
+            </p>
+          </div>
+
+          <div class="about-card glass">
+            <h3>Why People Love Us</h3>
+            <ul class="check-list">
+              <li>Fresh ingredients every day</li>
+              <li>Friendly service and cozy seating</li>
+              <li>Fast orders and hygienic preparation</li>
+              <li>Perfect for students, families, and friends</li>
+            </ul>
+          </div>
+
+          <div class="about-card glass">
+            <h3>Our Promise</h3>
+            <p>
+              We serve quality, comfort, and taste in every cup and plate. FreshBite Café
+              is your neighborhood spot for a happy food experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <span>Our Menu</span>
+          <h2>Popular picks you will keep coming back for.</h2>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-icon">☕</div>
+            <h3>Hot Coffee</h3>
+            <p>Espresso, cappuccino, latte, mocha, and filter coffee.</p>
+            <strong>Starts at ₹99</strong>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-icon">🥐</div>
+            <h3>Bakery</h3>
+            <p>Croissants, muffins, brownies, cookies, and donuts.</p>
+            <strong>Starts at ₹49</strong>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-icon">🍔</div>
+            <h3>Quick Bites</h3>
+            <p>Burgers, sandwiches, fries, wraps, and cheesy snacks.</p>
+            <strong>Starts at ₹129</strong>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-icon">🍰</div>
+            <h3>Desserts</h3>
+            <p>Cheesecake, pastries, ice cream, and chocolate treats.</p>
+            <strong>Starts at ₹89</strong>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-icon">🧋</div>
+            <h3>Cold Drinks</h3>
+            <p>Milkshakes, iced coffee, mojitos, and refreshing coolers.</p>
+            <strong>Starts at ₹79</strong>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-icon">🍳</div>
+            <h3>Breakfast</h3>
+            <p>Egg combos, toast, pancakes, sandwiches, and oats bowls.</p>
+            <strong>Starts at ₹149</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section specials-section" id="specials">
+      <div class="container">
+        <div class="section-heading">
+          <span>Special Offers</span>
+          <h2>Fresh deals for your next visit.</h2>
+        </div>
+
+        <div class="specials-grid">
+          <div class="special-card highlight">
+            <h3>Morning Combo</h3>
+            <p>Coffee + Sandwich + Muffin</p>
+            <span>Only ₹199</span>
+          </div>
+
+          <div class="special-card">
+            <h3>Sweet Treat Combo</h3>
+            <p>Brownie + Iced Coffee</p>
+            <span>Only ₹179</span>
+          </div>
+
+          <div class="special-card">
+            <h3>Family Platter</h3>
+            <p>2 Burgers + Fries + 2 Drinks</p>
+            <span>Only ₹399</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonial-section">
+      <div class="container">
+        <div class="section-heading">
+          <span>Guest Reviews</span>
+          <h2>What visitors say about FreshBite.</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <p>“Beautiful ambience, quick service, and the coffee tastes amazing.”</p>
+            <h4>— Aanya</h4>
+          </div>
+          <div class="testimonial-card">
+            <p>“Perfect place to hang out with friends. The snacks are fresh and tasty.”</p>
+            <h4>— Rahul</h4>
+          </div>
+          <div class="testimonial-card">
+            <p>“Love the cozy setup and the modern feel. Great for studying too.”</p>
+            <h4>— Priya</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <div class="section-heading left-align">
+            <span>Contact Us</span>
+            <h2>Book a table or send us a message.</h2>
+          </div>
+
+          <div class="info-card">
+            <h3>Visit Us</h3>
+            <p>FreshBite Café, Hazratganj, Lucknow</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Hours</h3>
+            <p>Monday - Sunday: 8:00 AM - 11:00 PM</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Call / WhatsApp</h3>
+            <p>+91 98765 43210</p>
+          </div>
+        </div>
+
+        <form class="contact-form glass" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="+91 98765 43210" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Reservation Date</label>
+              <input type="date" id="date" required />
+            </div>
+
+            <div class="form-group">
+              <label for="time">Preferred Time</label>
+              <input type="time" id="time" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="guests">Number of Guests</label>
+            <select id="guests" required>
+              <option value="">Select guests</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3-4</option>
+              <option>5-8</option>
+              <option>8+</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Special Request</label>
+            <textarea id="message" rows="5" placeholder="Birthday setup, outdoor seating, custom order..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">Submit Reservation</button>
+          <p class="form-note">We will confirm your booking shortly.</p>
+
+          <div class="toast" id="toast">Thanks! Your request has been sent.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>FreshBite Café</h3>
+        <p>Fresh coffee, warm food, and a modern café experience in Lucknow.</p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div>
+        <h4>Follow Us</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Google Maps</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> FreshBite Café. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
